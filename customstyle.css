@@ -1,10 +1,31 @@
-        /* Removes Suggestions on main page */
+@-moz-document domain('instagram.com') {
+    html{
+        --feed-width: 50% !important;
+    }
+    
+    
+    
+    /* Removes Suggestions on main page */
     ._9-ta,
     .COOzN,
     ._aaka,
     ._aak4,
     ._aa1x,
-    ._aak6 
-    {
+    ._aak6 {
         display: none !important;
     }
+
+    ._aalz, ._aam2 {
+        max-width: 80% !important;
+        min-width: 25% !important;
+    }
+    
+    .x1nhvcw1 > div {
+        width: 100% !important;
+        max-width: 1080px !important;
+    }
+    
+    ._akel {
+        background: transparent !important;
+    }
+}
