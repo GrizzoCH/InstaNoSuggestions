@@ -1,10 +1,15 @@
+/* ==UserStyle==
+@name           instagram.com - 01/04/2023, 10:27:32
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
 @-moz-document domain('instagram.com') {
     html{
-        --feed-width: 50% !important;
+        --feed-sidebar-width: 50% !important;
     }
-    
-    
-    
     /* Removes Suggestions on main page */
     ._9-ta,
     .COOzN,
@@ -14,18 +19,13 @@
     ._aak6 {
         display: none !important;
     }
-
-    ._aalz, ._aam2 {
-        max-width: 80% !important;
-        min-width: 25% !important;
+    
+    ._aam1 {
+        min-width: 100% !important;
     }
     
-    .xh8yej3{
-        max-width:100% !important;
-    }
-    
-    ._akel {
-        background: transparent !important;
+    .xh8yej3 {
+        min-width: 50% !important;
     }
 }
 
