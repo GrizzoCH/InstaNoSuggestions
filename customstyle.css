@@ -1,27 +1,28 @@
 /* ==UserStyle==
-@name           instagram.com - 01/04/2023, 10:27:32
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
-==/UserStyle== */
+@name           Rem Insta Suggestions
+@namespace      USO Archive
+@author         Daniel Perren
+@description    `Removes some of suggested accounts fields.`
+@version        20230731.21.14
+@license        CC0-1.0
+@preprocessor   uso
 
+
+==/UserStyle== */
 @-moz-document domain('instagram.com') {
-    html{
+    html {
         --feed-sidebar-width: 50% !important;
     }
     /* Removes Suggestions on main page */
-    .x6bx242 {
+    div.x6bx242 {
         display: none !important;
     }
-    
-    
-    ._aam1 {
-        min-width: 100% !important;
-    }
-    
-    .xh8yej3 {
+
+    div.xh8yej3 {
         min-width: 50% !important;
     }
-}
 
+    div.x11fxgd9 {
+        width: 630px !important;
+    }
+}
